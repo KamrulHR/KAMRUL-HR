@@ -1,0 +1,147 @@
+
+@media(max-width:1023px){
+    .interest h2 {
+        font-size: 30px;
+    }
+    .know-item p {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .kh img {
+        height: 400px;
+        width: 400px ! important;
+    }
+    .kh {
+        right: 6%;
+    }
+    .intro h3 {
+        font-size: 35px;
+        margin-top: 100px;
+    }
+    .nav-link {
+        font-weight: 400;
+    }
+    .phn-icon i {
+        font-size: 12px;
+    }
+    .nmbr h3 {
+        font-size: 15px;
+    }
+}
+@media(max-width:991px){
+    .kh img {
+        height: 300px;
+        width: 300px ! important;
+    }
+    header {
+        height: 1026px;
+    }
+    .nav-link:hover {
+        padding: 7px 15px;
+    }
+    .contact i {
+        font-size: 15px;
+    }
+    .me {
+        font-size: 15px;
+    }
+    .work-btn:hover {
+        font-size: 12px;
+    }
+    .contct h3 {
+        font-size: 15px;
+    }
+    .know-item p {
+        font-size: 16px;
+    }
+}
+@media(max-width:767px){
+    .intro h3 {
+        font-size: 25px;
+        margin-top: 0px;
+    }
+    .intro h1 {
+        font-size: 55px;
+    }
+    .kh {
+        display: none;
+    }
+    .kh {
+        position: static;
+    }
+    .cntr {
+        flex-direction: column-reverse;
+    }
+    .kh {
+        display: inherit;
+    }
+    .kh img {
+        height: 250px;
+        width: 250px ! important;
+        margin-bottom: 8px;
+    }
+}
+
+@media(max-width:575px) {
+    .cntr {
+        text-align: center;
+    }
+    header {
+        height: 880px;
+    }
+    .btns {
+        justify-content: center;
+    }
+
+    .owl-nav .owl-next i {
+        display: none;
+    }
+    .kh img {
+        height: 150px;
+        width: 150px ! important;
+        border: 7px solid var(--bs-border-color-translucent);
+    }
+    .interest {
+        padding: 100px;
+    }
+
+    .interest h2 {
+        font-size: 22px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .touch {
+        text-align: center;
+    }
+
+    .touch ul {
+        justify-content: center;
+    }
+
+    form input {
+        text-align: center;
+    }
+
+    form textarea {
+        text-align: center;
+    }
+}
+@media(max-width:425px){
+    header {
+        height: 900px;
+    }
+}
+@media (max-width: 375px){
+header {
+    height: 945px;
+}
+.intrst-btn{
+    PADDING: 10PX 25PX;
+}
+.owl-nav .owl-prev i {
+    display: none ! important;
+}
+}
